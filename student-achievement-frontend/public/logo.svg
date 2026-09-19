@@ -1,0 +1,26 @@
+<!-- public/logo.svg -->
+<svg width="40" height="40" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="trophy-gradient" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#667eea"/>
+      <stop offset="1" stop-color="#764ba2"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="url(#trophy-gradient)"/>
+  <g>
+    <!-- Trophy cup -->
+    <path d="M60 36
+      C68 36 75 42 75 49
+      V60
+      C75 70 68 78 60 78
+      C52 78 45 70 45 60
+      V49
+      C45 42 52 36 60 36
+      Z" fill="#fff"/>
+    <!-- Trophy handles -->
+    <path d="M45 52 Q30 54 35 70" stroke="#fff" stroke-width="4" fill="none"/>
+    <path d="M75 52 Q90 54 85 70" stroke="#fff" stroke-width="4" fill="none"/>
+    <!-- Star -->
+    <polygon points="60,47 63,55 72,55 65,60 67,69 60,63 53,69 55,60 48,55 57,55" fill="url(#trophy-gradient)"/>
+  </g>
+</svg>
